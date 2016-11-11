@@ -16,7 +16,7 @@ var nombreEspecie = function(response){
         });
         $("#selector").append(especie);
     }
-    $.getJSON("http://swapi.co/api/species/",nombreEspecie);
+    $.getJSON("https://swapi.co/api/species/",nombreEspecie);
 });
 
 
